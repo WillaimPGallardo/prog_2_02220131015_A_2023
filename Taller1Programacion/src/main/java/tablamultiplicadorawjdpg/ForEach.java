@@ -18,6 +18,8 @@ public class ForEach {
         int NumB =(int)(Math.random()*2023+1);
         int [] arrayN = new int [NumB];
         
+        try{
+            
         
         System.out.println("Esta es la tabla de multiplicar con el Do While");
         System.out.println("Numeros Ramdos");
@@ -39,7 +41,13 @@ public class ForEach {
         
     
     
-    
+    }
+catch(Exception e){
+    System.out.println("Haz cometido un error, vuelve a intentarlo");
+
+    main(args);
+
+}
     
     
     

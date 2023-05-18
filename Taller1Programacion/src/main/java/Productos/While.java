@@ -23,7 +23,7 @@ public class While {
         String [] Cantidad = new String[Num];
         Scanner dato= new Scanner(System.in);
        
-       
+       try{
        
       
         System.out.println("El numero de Productos que debes ingrasar son: "+ Numero );
@@ -64,7 +64,13 @@ public class While {
         }
         
         
-        
+        }
+catch(Exception e){
+    System.out.println("Haz cometido un error, vuelve a intentarlo");
+
+    main(args);
+
+}
         
         
         

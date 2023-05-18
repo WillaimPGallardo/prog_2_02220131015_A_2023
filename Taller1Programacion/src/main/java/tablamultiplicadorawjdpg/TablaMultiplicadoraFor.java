@@ -16,6 +16,7 @@ public class TablaMultiplicadoraFor {
         int NumA =(int)(Math.random()*2023+1);
         int NumB =(int)(Math.random()*2023+1);
         
+        try{
         
         System.out.println("Esta es la tabla de multiplicar con el For");
         System.out.println("Numeros Ramdos");
@@ -31,7 +32,13 @@ public class TablaMultiplicadoraFor {
         
         }
         
-        
+        }
+catch(Exception e){
+    System.out.println("Haz cometido un error, vuelve a intentarlo");
+
+    main(args);
+
+}
     }
     
 }

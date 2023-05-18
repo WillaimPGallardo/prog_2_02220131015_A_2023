@@ -12,7 +12,7 @@ public class While {
         int NumA =(int)(Math.random()*2023+1);
         int NumB =(int)(Math.random()*2023+1);
         
-        
+        try{
         
         System.out.println("Esta es la tabla de multiplicar con el While");
         System.out.println("Numeros Ramdos");
@@ -30,7 +30,13 @@ public class While {
       
       }
         
+}
+catch(Exception e){
+    System.out.println("Haz cometido un error, vuelve a intentarlo");
 
+    main(args);
+
+}
 
 
 

@@ -19,6 +19,8 @@ public class Ejercicio20 {
        int num1;
        int num2;
         
+       
+       try{
         System.out.print("Ingresa el primer número: ");
         num1 = Dato.nextInt();
         
@@ -39,7 +41,13 @@ public class Ejercicio20 {
             }
         }
         
-         
+         }
+catch(Exception e){
+    System.out.println("Haz cometido un error, vuelve a intentarlo");
+
+    main(args);
+
+}
     
     }
     

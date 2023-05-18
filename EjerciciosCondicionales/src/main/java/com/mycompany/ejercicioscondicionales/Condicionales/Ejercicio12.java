@@ -24,7 +24,7 @@ public class Ejercicio12 {
         double minutos;
         int segundos;
         
-        
+        try{
         
          System.out.println("Es domingo?");
          System.out.println("1=Si y 0=No");
@@ -92,7 +92,13 @@ public class Ejercicio12 {
          System.out.println("La llamda duro: "+minuto+" minutos y "+segundos+" Segundos, su total a pagar es de "+total+" segun los recargos ");
         
         
-        
+        }
+catch(Exception e){
+    System.out.println("Haz cometido un error, vuelve a intentarlo");
+
+    main(args);
+
+}
       
         
     }

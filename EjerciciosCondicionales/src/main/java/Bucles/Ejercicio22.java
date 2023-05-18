@@ -18,7 +18,7 @@ public class Ejercicio22 {
          double base;
          int exponente;
          
-         
+         try{
         System.out.println("Introduce la base: ");
         base = Dato.nextDouble();
         
@@ -34,7 +34,13 @@ public class Ejercicio22 {
         
         System.out.println(base + " elevado a " + exponente + " es igual a " + resultado);
     
-        
+        }
+catch(Exception e){
+    System.out.println("Haz cometido un error, vuelve a intentarlo");
+
+    main(args);
+
+}
     }
     
 }

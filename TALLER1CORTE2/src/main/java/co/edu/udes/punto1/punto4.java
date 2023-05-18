@@ -17,7 +17,7 @@ public class punto4 {
         int num;
         int Serie=0;
         int seg=1;
-        
+        try{
         System.out.println("Ingrese la cantidad que desea ver en la serie ");
         num = Dato.nextInt();
         
@@ -32,7 +32,13 @@ public class punto4 {
         
         }
         
-        
+        }
+catch(Exception e){
+    System.out.println("Haz cometido un error, vuelve a intentarlo");
+
+    main(args);
+
+}
     }
 }
         

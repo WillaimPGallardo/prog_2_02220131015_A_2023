@@ -19,6 +19,8 @@ public class Ejercicio15 {
         int mes;
         int dias;
         
+        
+        try{
         System.out.println("Ingrese el mes del 1-12");
         
         System.out.println("Ingrese el numero del mes que desea saber sus dias:  ");
@@ -54,7 +56,13 @@ public class Ejercicio15 {
         System.out.println("El mes "+mes+" tiene "+ dias+" dias.");
         
         
-        
+        }
+catch(Exception e){
+    System.out.println("Haz cometido un error, vuelve a intentarlo");
+
+    main(args);
+
+}
         
         
         

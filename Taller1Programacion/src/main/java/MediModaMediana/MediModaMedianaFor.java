@@ -22,6 +22,9 @@ public class MediModaMedianaFor {
         int Mediana=0;
         double Promedio=0;
         double sumadepromedio=0;
+        try{
+        
+        
         System.out.println("La lista sera de : "+ Numero );
         
         
@@ -57,7 +60,13 @@ public class MediModaMedianaFor {
         
   
         
-        
+        }
+catch(Exception e){
+    System.out.println("Haz cometido un error, vuelve a intentarlo");
+
+    main(args);
+
+}
         
         
     }

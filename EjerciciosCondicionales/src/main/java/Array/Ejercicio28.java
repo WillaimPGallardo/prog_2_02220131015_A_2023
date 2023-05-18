@@ -20,7 +20,7 @@ public class Ejercicio28 {
         int maximo = Integer.MIN_VALUE;
         int minimo = Integer.MAX_VALUE;
 
-        
+        try{
         for (int i = 0; i < 10; i++) {
             System.out.print("Introduce el número " + (i+1) + ": ");
             numeros[i] = Dato.nextInt();
@@ -49,7 +49,13 @@ public class Ejercicio28 {
             }
             System.out.println();
         }
-        
+        }
+catch(Exception e){
+    System.out.println("Haz cometido un error, vuelve a intentarlo");
+
+    main(args);
+
+}
         
         
     }

@@ -24,7 +24,7 @@ public class Ejercicio11 {
       
         int estudiantes;
         
-        
+        try{
         System.out.println("Ingrese el numero de estudiantes que van a viajar");
         estudiantes = dato.nextInt();
         
@@ -54,7 +54,13 @@ public class Ejercicio11 {
         
         
         }
-        
+      }
+catch(Exception e){
+    System.out.println("Haz cometido un error, vuelve a intentarlo");
+
+    main(args);
+
+}  
         
     }
     

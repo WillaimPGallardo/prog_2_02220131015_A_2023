@@ -17,6 +17,8 @@ public class Ejercicio14 {
         
        int dia;
        
+       
+       try{
         System.out.println("Ingrese el dia de la semana del 1 al 7: ");
         dia=Dato.nextInt();
         
@@ -65,7 +67,13 @@ public class Ejercicio14 {
         }
         
         System.out.println("El dia de la semana es: "+diaCorrespondiente);
-                    
+         }
+catch(Exception e){
+    System.out.println("Haz cometido un error, vuelve a intentarlo");
+
+    main(args);
+
+}           
                     
                     
         

@@ -21,7 +21,7 @@ public class While {
        int Contador;
        
        
-       
+       try{
        
        
      System.out.println("Ingrese la palabra que desea invertir: ");
@@ -44,7 +44,13 @@ public class While {
        System.out.println(invertir);
     
     
-    
+    }
+catch(Exception e){
+    System.out.println("Haz cometido un error, vuelve a intentarlo");
+
+    main(args);
+
+}
  
     
     }

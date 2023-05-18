@@ -22,7 +22,7 @@ public class Ejercicio8 {
         double h2;
         double h3;
         
-
+try{
         System.out.println("Ingrese el dado 1 del triangulo");
         lado1=Dato.nextInt();
         
@@ -65,7 +65,15 @@ public class Ejercicio8 {
             if(lado3==h3){
                 System.out.println("ES TRIANGULO RECTANGULO");
             }
-        }   
+        }  
+        
+        }
+catch(Exception e){
+    System.out.println("Haz cometido un error, vuelve a intentarlo");
+
+    main(args);
+
+}
         }
 }           
             

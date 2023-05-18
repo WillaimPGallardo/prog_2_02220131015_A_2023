@@ -17,6 +17,7 @@ public class Ejercicio4 {
         
         String letra;
         
+        try{
         System.out.print("Introduce una letra: ");
         letra = Dato.nextLine();
         
@@ -33,7 +34,13 @@ public class Ejercicio4 {
             System.out.println("La letra introducida no es mayúscula");
             
         }
-        
+        }
+    catch(Exception e){
+    System.out.println("Haz cometido un error, vuelve a intentarlo");
+
+    main(args);
+
+}
         
         
         

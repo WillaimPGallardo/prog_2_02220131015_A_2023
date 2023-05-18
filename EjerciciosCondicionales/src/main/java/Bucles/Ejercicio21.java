@@ -18,7 +18,7 @@ public class Ejercicio21 {
         int limiteInferior; 
         int limiteSuperior;
         
-        
+        try{
         
         do {
             
@@ -75,6 +75,13 @@ public class Ejercicio21 {
             System.out.println("No se ha introducido ningún número igual a los límites del intervalo.");
             
         }
+        }
+catch(Exception e){
+    System.out.println("Haz cometido un error, vuelve a intentarlo");
+
+    main(args);
+
+}
     }
     
 }

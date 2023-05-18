@@ -20,7 +20,7 @@ public class Punto6 {
         char ayuda;
         int indice;
         
-        
+        try{
         System.out.println("INGRESE SU FRASE");
         String cadena= Dato .nextLine();
         
@@ -50,7 +50,13 @@ public class Punto6 {
             }
         
         }
-        
+        }
+catch(Exception e){
+    System.out.println("Haz cometido un error, vuelve a intentarlo");
+
+    main(args);
+
+}
     }
     
 }

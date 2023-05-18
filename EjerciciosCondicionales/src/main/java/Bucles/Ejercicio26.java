@@ -16,7 +16,7 @@ public class Ejercicio26 {
         Scanner Dato = new Scanner(System.in);
         
         int n;
-        
+        try{
         
         System.out.print("Ingrese el número de filas de la pirámide: ");
         n = Dato.nextInt();
@@ -38,6 +38,13 @@ public class Ejercicio26 {
             }
             System.out.println();
         }
+        }
+catch(Exception e){
+    System.out.println("Haz cometido un error, vuelve a intentarlo");
+
+    main(args);
+
+}
     }
 }   
 

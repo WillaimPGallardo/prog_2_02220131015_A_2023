@@ -18,6 +18,8 @@ public class Ejercico2 {
         
         int num1; 
         
+        try{
+        
         System.out.print("Introduce un número entero: ");
         num1 = Dato.nextInt();
         
@@ -33,7 +35,13 @@ public class Ejercico2 {
             System.out.println(num1 + " es impar");
             
         }
-        
+        }
+    catch(Exception e){
+    System.out.println("Haz cometido un error, vuelve a intentarlo");
+
+    main(args);
+
+    }
         
         
         

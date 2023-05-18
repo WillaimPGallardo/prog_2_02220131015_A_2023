@@ -17,7 +17,7 @@ public class Ejercicio27 {
         Scanner Dato = new Scanner(System.in);
         int[] numeros = new int[10];
 
-        
+        try{
         System.out.println("Ingrese 10 números:");
         
         for (int i = 0; i < 10; i++) {
@@ -29,7 +29,13 @@ public class Ejercicio27 {
         for (int i = 9; i >= 0; i--) {
             System.out.println(numeros[i]);
         }
-        
+        }
+catch(Exception e){
+    System.out.println("Haz cometido un error, vuelve a intentarlo");
+
+    main(args);
+
+}
         
     }
     

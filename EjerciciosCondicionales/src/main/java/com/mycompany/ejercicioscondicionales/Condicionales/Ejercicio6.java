@@ -20,6 +20,8 @@ public class Ejercicio6 {
         char Genero;
         String aceptacion = "NO ACEPTADA";
         
+        try{
+        
         System.out.println("Ingrese la edad del solicitante:");
         edad = Dato.nextInt();
         
@@ -40,6 +42,14 @@ public class Ejercicio6 {
         
         
         System.out.println("La solicitud del solicitante es " + aceptacion);
+        
+        }
+catch(Exception e){
+    System.out.println("Haz cometido un error, vuelve a intentarlo");
+
+    main(args);
+
+}
     }
         
         

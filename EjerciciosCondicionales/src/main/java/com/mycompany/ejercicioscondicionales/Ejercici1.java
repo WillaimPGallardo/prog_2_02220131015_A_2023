@@ -17,7 +17,10 @@ public class Ejercici1 {
         int num1;
         int num2;
         
-        System.out.print("Ingrese el primer número: ");
+        
+      
+      try{      
+       System.out.print("Ingrese el primer número: ");
         num1 = Dato.nextInt();
         
         System.out.print("Ingrese el segundo número: ");
@@ -36,6 +39,20 @@ public class Ejercici1 {
             System.out.println(num1 + " y " + num2 + " son iguales");
             
         }
+        
+      }
+    catch(Exception e){
+    System.out.println("Haz cometido un error, vuelve a intentarlo");
+
+        main(args);
+
+    }
+
+          
+
+       
+        
+    
     
     
     

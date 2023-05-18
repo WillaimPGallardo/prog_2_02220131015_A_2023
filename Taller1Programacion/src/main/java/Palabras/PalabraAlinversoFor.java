@@ -12,6 +12,8 @@ public class PalabraAlinversoFor {
        String Palabra;
        Scanner tex = new Scanner(System.in);
        
+       try{
+       
        System.out.println("Ingrese la palabra que desea invertir: ");
        Palabra= tex.nextLine();
        
@@ -26,7 +28,13 @@ public class PalabraAlinversoFor {
        
        System.out.println(invertir);
 
-        
+        }
+catch(Exception e){
+    System.out.println("Haz cometido un error, vuelve a intentarlo");
+
+    main(args);
+
+}
         
     }
 }

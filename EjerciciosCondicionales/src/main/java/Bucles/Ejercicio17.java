@@ -19,6 +19,8 @@ public class Ejercicio17 {
         int intentos = 10;
       
         int numeroUsuario;
+        
+        try{
 
         do {
             String mensaje = "Adivina un número del 1 al 100.\n"
@@ -49,7 +51,13 @@ public class Ejercicio17 {
         }
         
         
-        
+        }
+catch(Exception e){
+    System.out.println("Haz cometido un error, vuelve a intentarlo");
+
+    main(args);
+
+}
     }
     
 }

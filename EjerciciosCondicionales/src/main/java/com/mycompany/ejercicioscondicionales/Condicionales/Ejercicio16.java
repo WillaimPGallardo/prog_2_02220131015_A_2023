@@ -13,6 +13,7 @@ public class Ejercicio16 {
         int zona;
         double envio;
         
+        try{
         System.out.println("ingrese la cantidad de kg que desea enviar: ");
         peso=dato.nextDouble();
         
@@ -68,7 +69,13 @@ public class Ejercicio16 {
         System.out.println("El costo de envío es de " + envio + " euros.");
        
         
-        
+        }
+catch(Exception e){
+    System.out.println("Haz cometido un error, vuelve a intentarlo");
+
+    main(args);
+
+}
     }
 }
 

@@ -16,6 +16,8 @@ public class Punto1 {
     public static void main(String[] args) {
         
         Scanner Dato = new Scanner(System.in);
+        
+        try{
         System.out.println("Ingresa un número entero que representa el tiempo en segundos: ");
         int tiempoSegundos = Dato.nextInt();
         
@@ -36,6 +38,15 @@ public class Punto1 {
         
         System.out.println("Tiempo equivalente en formato de 24 horas: " + dias + "d " + horas + "h " + minutos + "m " + segundos + "s");
         System.out.println("Tiempo equivalente en formato de 12 horas: " + dias + "d " + horas12 + "h " + minutos + "m " + segundos + "s " + ampm);
+        
+        
+        }
+catch(Exception e){
+    System.out.println("Haz cometido un error, vuelve a intentarlo");
+
+    main(args);
+
+}
     }
 }
         

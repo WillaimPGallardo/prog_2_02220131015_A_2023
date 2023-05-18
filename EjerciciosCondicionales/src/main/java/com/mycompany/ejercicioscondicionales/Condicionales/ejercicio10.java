@@ -18,6 +18,8 @@ public class ejercicio10 {
         int tamaño;
         int tipo;
         
+        try{
+        
         System.out.println("Ingrese el precio del kilo de uva");
         precioinicial=Dato.nextDouble();
         
@@ -52,7 +54,15 @@ public class ejercicio10 {
             System.out.println("El Precio De La Entrega Del Kilo De Uva Es De "+preciofinal);
             
         }
+        }
+catch(Exception e){
+    System.out.println("Haz cometido un error, vuelve a intentarlo");
+
+    main(args);
+
+}
     }
+        
 }
         
     

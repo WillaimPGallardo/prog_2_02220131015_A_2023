@@ -25,7 +25,7 @@ public class Ejercicio7 {
         
          double distancia;
          
-         
+         try{
         System.out.println("Ingrese el punto X1 Primera circunferencia: ");
         x1 = Dato.nextDouble();
         
@@ -76,8 +76,16 @@ public class Ejercicio7 {
             
             System.out.println("Las circunferencias son secantes.");
             
+            
+            
         }
-        
+        }
+catch(Exception e){
+    System.out.println("Haz cometido un error, vuelve a intentarlo");
+
+    main(args);
+
+}
         
     }
     

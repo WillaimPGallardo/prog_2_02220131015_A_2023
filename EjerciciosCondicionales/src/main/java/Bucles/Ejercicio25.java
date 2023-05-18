@@ -22,7 +22,7 @@ public class Ejercicio25 {
 
         int count = 0;
         int num = 2;
-
+try{
         while (count < n) {
             boolean esPrimo = true;
             
@@ -44,7 +44,13 @@ public class Ejercicio25 {
             num++;
         }
         
-           
+           }
+catch(Exception e){
+    System.out.println("Haz cometido un error, vuelve a intentarlo");
+
+    main(args);
+
+}
            
            
     }

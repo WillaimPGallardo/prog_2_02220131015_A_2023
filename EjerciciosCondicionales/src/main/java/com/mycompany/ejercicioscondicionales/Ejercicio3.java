@@ -18,6 +18,8 @@ public class Ejercicio3 {
         double num2; 
         double resultado;
         
+        
+        try{
         System.out.println("Introduce el primer número: ");
         num1 = Dato.nextDouble();
         
@@ -34,7 +36,13 @@ public class Ejercicio3 {
             
             System.out.println("El resultado de la división es: " + resultado);
         }
-        
+        }
+    catch(Exception e){
+    System.out.println("Haz cometido un error, vuelve a intentarlo");
+
+    main(args);
+
+    }
         
         
         

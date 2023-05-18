@@ -17,7 +17,7 @@ public class Ejercicio23 {
         
         int pago;
         int plazo;
-        
+        try{
         System.out.println("Ingrese el plazo de la compra (meses) ");
         plazo = Dato.nextInt();
         
@@ -30,7 +30,14 @@ public class Ejercicio23 {
         
         }
         System.out.println("Se pagara un total de: "+pago+" Euros.");
-        
+        }
+catch(Exception e){
+    System.out.println("Haz cometido un error, vuelve a intentarlo");
+
+    main(args);
+
+}
     }
+        
     
 }

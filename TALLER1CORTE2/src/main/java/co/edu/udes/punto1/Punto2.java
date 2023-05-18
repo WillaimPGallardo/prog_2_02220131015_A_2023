@@ -15,7 +15,7 @@ public class Punto2 {
         Scanner Dato = new Scanner (System.in);
         int day;
     
-        
+        try{
         System.out.println("Ingrese la fecha ");
         day = 32;
         
@@ -211,7 +211,13 @@ public class Punto2 {
                 }
         
         }
-        
+       }
+catch(Exception e){
+    System.out.println("Haz cometido un error, vuelve a intentarlo");
+
+    main(args);
+
+} 
     }
     
 }

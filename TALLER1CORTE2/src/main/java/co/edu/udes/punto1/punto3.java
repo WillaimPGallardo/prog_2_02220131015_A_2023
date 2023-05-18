@@ -15,6 +15,8 @@ public class punto3 {
          
     Scanner Dato = new Scanner (System.in);
     int contar=0;
+    
+    try{
     System.out.println("INGRESE EL NUMERO DE LATAS");
     int latas= Dato.nextInt();
     
@@ -33,6 +35,12 @@ public class punto3 {
     if(contar==latas){
         System.out.println("SE PUEDEN APLICAR LAS "+latas+" LATAS SIN QUE SOBRE NINGUNA");
     }
+}}
+catch(Exception e){
+    System.out.println("Haz cometido un error, vuelve a intentarlo");
+
+    main(args);
+
 }
     }
 }

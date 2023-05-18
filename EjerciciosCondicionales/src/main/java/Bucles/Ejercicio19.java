@@ -15,6 +15,8 @@ public class Ejercicio19 {
         
         Scanner Dato = new Scanner(System.in);
         char ch;
+        
+        try{
         do {
             System.out.print("Introduzca una letra : ");
             ch = Dato.next().charAt(0);
@@ -33,7 +35,13 @@ public class Ejercicio19 {
             }
         } while (ch != ' ');
         
-        
+        }
+catch(Exception e){
+    System.out.println("Haz cometido un error, vuelve a intentarlo");
+
+    main(args);
+
+}
     }
     
 }

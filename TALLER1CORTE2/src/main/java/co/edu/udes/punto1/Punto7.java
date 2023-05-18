@@ -16,6 +16,8 @@ public class Punto7 {
          
         Scanner Dato = new Scanner(System.in);
 
+        
+        try{
         // Pedir el tamaño de los vectores
         System.out.print("Ingrese el tamaño de los vectores: ");
         int n = Dato.nextInt();
@@ -39,7 +41,13 @@ public class Punto7 {
         }
         
         System.out.println("se intento ");
-        
+        }
+catch(Exception e){
+    System.out.println("Haz cometido un error, vuelve a intentarlo");
+
+    main(args);
+
+}
     }
     
 }

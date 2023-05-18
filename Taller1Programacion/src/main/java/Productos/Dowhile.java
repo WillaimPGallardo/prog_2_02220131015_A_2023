@@ -27,7 +27,7 @@ public class Dowhile {
         Scanner dato= new Scanner(System.in);
        
        
-       
+       try{
       
         System.out.println("El numero de Productos que debes ingrasar son: "+ Numero );
         System.out.println("Debera ingresar el nombre del Producto             | ");
@@ -72,7 +72,13 @@ public class Dowhile {
     
     
     
-    
+    }
+catch(Exception e){
+    System.out.println("Haz cometido un error, vuelve a intentarlo");
+
+    main(args);
+
+}
     
     
     

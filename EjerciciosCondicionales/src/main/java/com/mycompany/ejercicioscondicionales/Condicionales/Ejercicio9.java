@@ -16,6 +16,8 @@ public class Ejercicio9 {
         
         int año;
         
+        try{
+        
         System.out.print("Ingrese el año: ");
         año = Dato.nextInt();
         
@@ -31,7 +33,13 @@ public class Ejercicio9 {
             System.out.println(año + " No es un año bisiesto.");
             
         }
-        
+        }
+catch(Exception e){
+    System.out.println("Haz cometido un error, vuelve a intentarlo");
+
+    main(args);
+
+}
     }
         
     }

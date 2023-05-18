@@ -22,7 +22,7 @@ public class Ejercico29 {
         
         int sumaTotal = 0;
 
-        
+        try{
         for (int i = 0; i < 4; i++) {
             for (int j = 0; j < 5; j++) {
                 System.out.print("Introduce el número en la fila " + (i+1) + " y columna " + (j+1) + ": ");
@@ -51,7 +51,13 @@ public class Ejercico29 {
         }
         System.out.println(sumaTotal);
         
-        
+        }
+catch(Exception e){
+    System.out.println("Haz cometido un error, vuelve a intentarlo");
+
+    main(args);
+
+}
     }
     
 }

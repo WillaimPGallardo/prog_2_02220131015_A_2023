@@ -19,7 +19,7 @@ public class Ejercicios30 {
         int[] sumasColumnas = new int[5];
         int sumaTotal = 0;
 
-        
+        try{
         for (int i = 0; i < 4; i++) {
             for (int j = 0; j < 5; j++) {
                 numeros[i][j] = rnd.nextInt(900) + 100;
@@ -46,7 +46,13 @@ public class Ejercicios30 {
         System.out.println(sumaTotal);
         
         
-        
+        }
+catch(Exception e){
+    System.out.println("Haz cometido un error, vuelve a intentarlo");
+
+    main(args);
+
+}
         
         
         

@@ -17,7 +17,7 @@ public class Punto5 {
     
         int num;
         int alineacion;
-        
+        try{
         System.out.println("Ingrase la altura del triangulo");
         num = Dato.nextInt();
         
@@ -60,6 +60,13 @@ public class Punto5 {
         }
         
     }
+        }
+catch(Exception e){
+    System.out.println("Haz cometido un error, vuelve a intentarlo");
+
+    main(args);
+
+}
     }
 }
 

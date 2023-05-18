@@ -19,7 +19,7 @@ public class Ejercicio18 {
         int negativos = 0; 
         int ceros = 0;
         
-        
+        try{
         System.out.print("Introduce la cantidad de números a introducir: ");
         n = Dato.nextInt();
         
@@ -45,6 +45,14 @@ public class Ejercicio18 {
         System.out.println("Números negativos introducidos: " + negativos);
         
         System.out.println("Números iguales a cero introducidos: " + ceros);
+        
+        }
+catch(Exception e){
+    System.out.println("Haz cometido un error, vuelve a intentarlo");
+
+    main(args);
+
+}
     }
         
         

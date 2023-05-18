@@ -17,7 +17,7 @@ public class Ejercicio5 {
         double base;
         int exponente;
         
-        
+        try{
         System.out.print("Ingrese el número base: ");
         base = Dato.nextDouble();
 
@@ -46,9 +46,24 @@ public class Ejercicio5 {
             resultado = 1.0 / resultado;
             
         } 
+        
+        
 
         System.out.println("El resultado es: " + resultado);
 
+        
+     }
+catch(Exception e){
+    System.out.println("Haz cometido un error, vuelve a intentarlo");
+
+    main(args);
+
+}   
+        
+        
+        
+        
+        
         
     }
     

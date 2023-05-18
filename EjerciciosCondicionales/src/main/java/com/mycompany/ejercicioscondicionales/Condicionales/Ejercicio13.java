@@ -16,7 +16,7 @@ public class Ejercicio13 {
         
         int resultado;
 
-     
+     try{
         System.out.print("Ingrese el resultado obtenido al lanzar el dado: ");
         resultado = Dato.nextInt();
 
@@ -86,6 +86,14 @@ public class Ejercicio13 {
         }
         
         System.out.println("El número en letras de la cara opuesta al resultado obtenido es: " + numeroEnLetras);
+        
+        }
+catch(Exception e){
+    System.out.println("Haz cometido un error, vuelve a intentarlo");
+
+    main(args);
+
+}
     }
         
         
